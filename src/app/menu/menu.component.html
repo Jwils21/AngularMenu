@@ -1,0 +1,12 @@
+<nav>
+	<ul>
+		<menu-item *ngFor="let menuitem of menudata" [menu]="menuitem"></menu-item>
+	</ul>
+</nav>
+<div>
+<button (click)="change()">Change table style</button>
+</div>
+<table [ngClass]="tableclass">
+	<tr><td>Jon</td><td>Wilson</td></tr>
+</table>
+

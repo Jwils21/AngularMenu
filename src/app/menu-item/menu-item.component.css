@@ -1,0 +1,15 @@
+li {
+	display: inline-block;
+	text-align: center;
+	border-right: 1px solid #bbb
+}
+a {
+	color: white;
+	padding: 0px 10px;
+	text-decoration: none;
+	font-family: arial;
+	font-size: 1.25em;
+}
+a:hover {
+	background-color: #4CAF50;
+}
